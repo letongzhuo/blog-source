@@ -18,11 +18,12 @@ echo  [3] hexo server
 echo  [4] hexo deploy
 echo  [5] npm run server
 echo  [6] npm run deploy
+echo  [7] 上传工作区
 echo.
 echo  [0] 退出
 echo.
 
-choice /c 0123456 /n 
+choice /c 01234567 /n 
 set /a choice=%errorlevel%-1
 
 if %choice% == 0 exit /b 0
@@ -38,6 +39,7 @@ set "commands[3]=hexo server"
 set "commands[4]=hexo deploy"
 set "commands[5]=npm run server"
 set "commands[6]=npm run deploy"
+set "commands[7]=git add . && git commit -m ^"-^" && git push"
 
 :: 修正命令获取方式
 if %choice% geq 1 (
