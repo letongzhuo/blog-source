@@ -1,0 +1,50 @@
+- category: Friends
+  icon: fa-user
+  items:
+    - name: lemon
+      link: https://lemon2003.github.io/
+      description: lemon的博客
+      image: /img/lemon-avatar.png
+- category: 资源库
+  icon: fa-folder # 分类的图标，使用 FontAwesome 图标
+  items:
+    - name: 主题作者
+      link: https://redefine-docs.ohevan.com/ # 从 url 改为 link
+      description: redefine 主题的作者
+      image: https://redefine.ohevan.com/images/redefine-avatar.svg
+    - name: Z-Library
+      link: https://z-library.ec/
+      description: 世界上最大的电子图书馆
+      image: https://z-library.ec/favicon.ico?v=1
+    - name: 菜鸟教程
+      link: https://www.runoob.com/
+      description: 我的专业老师
+      image: /img/cainiaofavicon.ico
+    - name: hello github
+      link: https://hellogithub.com/
+      description: 分享 GitHub 上有趣、入门级的开源项目
+      image: /img/hellogithub.webp
+- category: 工具箱
+  icon: fa-tools # 分类的图标，使用 FontAwesome 图标
+  items:
+    - name: GeoGebra
+      link: https://www.geogebra.org/graphing
+      description: 数学可视化工具
+      image: https://www.geogebra.org/favicon.ico
+    - name: LaTeX
+      link: https://www.latexlive.com
+      description: 数学公式编辑器
+      image: https://www.latexlive.com/favicon.ico
+- category: AI
+  icon: fa-robot # 分类的图标，使用 FontAwesome 图标
+  items:
+    - name: 元宝
+      link: https://yuanbao.tencent.com/
+      description: 腾讯版的deepseek
+      image: https://yuanbao.tencent.com/favicon.ico
+    - name: 秘塔
+      link: https://metaso.cn/
+      description: AI搜索引擎
+      image: https://metaso.cn/favicon.ico
+
+ 

@@ -1,0 +1,23 @@
+- name: 技术
+  icon: fa-solid fa-code
+  posts:
+    - title: "如何使用EJS模板引擎"
+      url: "/posts/ejs-tutorial"
+    - title: "深入理解JavaScript闭包"
+      url: "/posts/javascript-closures"
+
+- name: 设计
+  icon: fa-solid fa-palette
+  posts:
+    - title: "色彩理论基础"
+      url: "/posts/color-theory"
+    - title: "响应式设计原则"
+      url: "/posts/responsive-design"
+
+- name: 生活
+  icon: fa-solid fa-heart
+  posts:
+    - title: "旅行的意义"
+      url: "/posts/travel-meaning"
+    - title: "健康生活的秘诀"
+      url: "/posts/healthy-living"
